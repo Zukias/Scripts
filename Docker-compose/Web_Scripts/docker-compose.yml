@@ -1,0 +1,8 @@
+web:
+  image: nginx
+  volumes:
+  - /root/Docker-compose/Web_Scripts/conf/custom.conf:/etc/nginx/conf.d/custom.conf
+  - /var/webscripts/:/usr/share/nginx/html/scripts
+  ports:
+  - "8080:80"
+  command: /bin/bash -c "envsubst < /etc/nginx/conf.d/custom.conf > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
