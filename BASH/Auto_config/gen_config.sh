@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # AIM : Configuration automatique d'une nouvelle machine Debian ou Ubuntu
 # AUTHORS : AMADIEU Romain
 # PARAMS : None
