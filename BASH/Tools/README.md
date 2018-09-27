@@ -15,10 +15,20 @@ Permet de renommer le serveur
 
 - Hostname
 
-### Fonctionnement
+#### Fonctionnement
 
 Lancer le script 
 
 `bash new-server.sh`
 
 Puis repondre aux questions.
+
+### init-devstack.sh
+
+Permet de preparer le serveur pour l'installation openstack single VM via le script fourni sur le site Openstack.
+
+#### Fonctionnement
+
+Lancer le script puis executer cette commande 
+
+su stack -c bash /home/stack/devstack/stack.sh -l
