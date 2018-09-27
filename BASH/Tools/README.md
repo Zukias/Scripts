@@ -31,4 +31,4 @@ Permet de preparer le serveur pour l'installation openstack single VM via le scr
 
 Lancer le script puis executer cette commande 
 
-su stack -c bash /home/stack/devstack/stack.sh -l
+`su stack -c bash /home/stack/devstack/stack.sh -l
