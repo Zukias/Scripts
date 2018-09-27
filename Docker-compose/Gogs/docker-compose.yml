@@ -25,7 +25,7 @@ mysql:
   expose:
     - "3306"
   environment:
-    MYSQL_ROOT_PASSWORD: Aerauliq.adm21
+    MYSQL_ROOT_PASSWORD: XXXXXX
     MYSQL_DATABASE: gogs
     MYSQL_USER: gogs
     MYSQL_PASSWORD: gogs
