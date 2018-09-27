@@ -1,7 +1,7 @@
 web:
   image: nginx
   volumes:
-  - /root/Docker-compose/Web_Scripts/conf/custom.conf:/etc/nginx/conf.d/custom.conf
+  - conf/custom.conf:/etc/nginx/conf.d/custom.conf
   - /var/webscripts/:/usr/share/nginx/html/scripts
   ports:
   - "8080:80"
